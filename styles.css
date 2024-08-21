@@ -1,0 +1,96 @@
+body {
+    font-family: 'Arial', sans-serif;
+    color: #c0392b;
+    margin: 0;
+    padding: 0;
+    background-color: #fdf4f2;
+}
+
+header {
+    background-color: #fff;
+    padding: 20px 40px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 2px solid #f3d1c4;
+}
+
+.logo img {
+    height: 50px;
+    margin-right: 10px;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    gap: 20px;
+}
+
+nav a {
+    text-decoration: none;
+    color: #d72c16;
+    font-weight: bold;
+}
+
+.hero {
+    display: flex;
+    align-items: center;
+    padding: 50px;
+}
+
+.hero-content {
+    max-width: 50%;
+}
+
+.hero h2 {
+    font-size: 48px;
+    color: #d72c16;
+    margin-bottom: 20px;
+}
+
+.hero p {
+    font-size: 18px;
+    color: #6c5244;
+}
+
+.hero img {
+    width: 50%;
+}
+.search-bar input[type="text"] {
+    border: 2px solid #c0392b; /* Match this color with your navigation item color */
+    padding: 8px;
+    width: 200px;
+}
+
+.search-bar button {
+    background-color: #c0392b;
+    color: white;
+    border: none;
+    padding: 10px 15px;
+    cursor: pointer;
+}
+.btn {
+    display: inline-block;
+    background-color: #d72c16;
+    color: #fff;
+    padding: 10px 20px;
+    text-transform: uppercase;
+    text-decoration: none;
+    border-radius: 5px;
+}
+
+.services, .about-us {
+    padding: 40px;
+}
+
+.services h2, .about-us h2 {
+    color: #d72c16;
+    font-size: 36px;
+}
+
+footer {
+    background-color: #fff;
+    padding: 20px;
+    text-align: center;
+    border-top: 2px solid #f3d1c4;
+}
